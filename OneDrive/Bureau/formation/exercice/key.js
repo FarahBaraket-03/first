@@ -10,10 +10,16 @@ const username=document.getElementById("username");
 const email=document.getElementById("email");
 const password=document.getElementById("password");
 const password2=document.getElementById("password2");
-
+const message=document.getElementById('message');
+let etat=true;
 form.addEventListener('submit',(e) =>{
     e.preventDefault()
     checkInputs();
+    if (etat){
+        message.innerText="Account created successfully";
+        setTimeout(()=>{message.innerText=""},3000);
+        form.reset();
+    }
 })
 
 function checkInputs(){
@@ -59,6 +65,10 @@ else
 
 
 
+}
+
+function isEmail(email){
+    return /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/.test(email);
 }
 
 function setSuccessFor(input){
