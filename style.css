@@ -103,7 +103,7 @@ font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans
     margin-bottom: 30px;
 }
 .floated .animated{
-    max-width: 400px;
+    max-width: 100%;
     animation: up-down 2s infinite alternate;
 
 }
