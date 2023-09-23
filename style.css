@@ -103,7 +103,7 @@ font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans
     margin-bottom: 30px;
 }
 .floated .animated{
-    max-width: 500px;
+    max-width: 400px;
     animation: up-down 2s infinite alternate;
 
 }
@@ -129,7 +129,7 @@ font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans
     border-radius:50%;
     height: 150px;
     margin: 10px;
-    max-width: 100%;
+    max-width: 80%;
 }
 .ro{
     background-color: rgb(211, 211, 211);
@@ -153,7 +153,7 @@ font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans
 }
 #contact button{
     max-width: 250px;
-    margin-left: 40%;
+    margin-left: 30%;
 }
 .label{
     color: rgb(101, 172, 172);
