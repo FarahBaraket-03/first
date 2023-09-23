@@ -152,8 +152,8 @@ font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans
     background-color: rgba(241, 237, 237, 0.801);
 }
 #contact button{
-    max-width: 250px;
-    margin-left: 30%;
+    max-width: 150px;
+    margin-left: 20%;
 }
 .label{
     color: rgb(101, 172, 172);
